@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Toledo STEM Camp Finder — K-12 Camps & Programs</title>
+  <meta name="description" content="Find K-12 STEM camps, classes, and programs in the Toledo, Ohio metro area. Search and filter by age, topic, season, and cost." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1>🔬 Toledo STEM Camp Finder</h1>
+      <p class="tagline">K-12 science, technology, engineering &amp; math camps and programs across the Toledo, Ohio metro.</p>
+      <div class="stats" id="stats" aria-live="polite"></div>
+      <p class="updated" id="updated"></p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="controls" aria-label="Search and filters">
+      <div class="search-row">
+        <input type="search" id="search" placeholder="Search camps, topics, or organizations…" aria-label="Search" />
+      </div>
+      <div class="filter-row">
+        <label>Topic
+          <select id="filter-topic"><option value="">All topics</option></select>
+        </label>
+        <label>Category
+          <select id="filter-category"><option value="">All types</option></select>
+        </label>
+        <label>Month
+          <select id="filter-month"><option value="">Any time</option></select>
+        </label>
+        <label class="checkbox">
+          <input type="checkbox" id="filter-free" /> Free only
+        </label>
+        <div class="view-toggle" role="group" aria-label="View mode">
+          <button id="view-events" class="active" type="button">📅 By date</button>
+          <button id="view-providers" type="button">🏢 By organization</button>
+        </div>
+        <button id="reset" class="reset" type="button">Reset</button>
+      </div>
+    </section>
+
+    <p class="result-count" id="result-count" aria-live="polite"></p>
+    <section id="results" class="results"></section>
+    <p id="empty" class="empty" hidden>No matches. Try clearing a filter or the search box.</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Compiled for the Tech Council Education group from adversarially-verified deep research. Always confirm dates, cost, and contacts with the provider before registering — programs change annually.</p>
+      <p class="muted">Data: <a href="data.json">data.json</a> · Updated weekly via review-then-publish.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
