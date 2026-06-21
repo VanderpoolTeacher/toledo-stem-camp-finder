@@ -8,8 +8,10 @@ Pull Request. A human reviews and merges → GitHub Pages republishes automatica
 
 ## Repository
 - GitHub: `VanderpoolTeacher/toledo-stem-camp-finder`
+- Local path: `…/Documents/GitHub/TECH COUNCIL/EDUCATION/toledo-stem-camp-finder` (the repo is this subfolder, not the parent EDUCATION folder)
 - Live site: https://vanderpoolteacher.github.io/toledo-stem-camp-finder/
-- Source of truth: `data.json` (the website reads only this file)
+- Source of truth: `data.json` (the website reads only this file). Edit only files inside this repo.
+- Internal research notes (`Toledo-STEM-*.md`) live in the parent EDUCATION folder, OUTSIDE this repo — do not depend on them.
 
 ## Steps
 

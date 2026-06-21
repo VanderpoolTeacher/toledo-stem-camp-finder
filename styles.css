@@ -112,6 +112,20 @@ body {
 
 .empty { text-align: center; color: var(--muted); padding: 40px; font-size: 1.05rem; }
 
+/* Past camps */
+#past-wrap { margin-top: 24px; }
+.past-toggle {
+  width: 100%; text-align: left; background: var(--card); border: 1px dashed var(--line);
+  border-radius: var(--radius); padding: 13px 18px; font-size: 0.95rem; font-weight: 600;
+  color: var(--muted); cursor: pointer;
+}
+.past-toggle:hover { color: var(--ink); border-color: var(--muted); }
+.results.past { margin-top: 14px; }
+.results.past .event-card { opacity: 0.62; background: #fbfcfd; }
+.results.past .event-card:hover { opacity: 0.85; }
+.results.past .date-badge { background: #ececf0; color: var(--muted); }
+.results.past .btn { background: var(--muted); }
+
 /* Footer */
 .site-footer { margin-top: 50px; padding: 26px 0 40px; border-top: 1px solid var(--line); background: #fff; }
 .site-footer p { font-size: 0.85rem; color: var(--muted); margin: 0 0 8px; }

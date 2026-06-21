@@ -17,8 +17,22 @@
     reset: document.getElementById("reset"),
     results: document.getElementById("results"),
     resultCount: document.getElementById("result-count"),
-    empty: document.getElementById("empty")
+    empty: document.getElementById("empty"),
+    pastWrap: document.getElementById("past-wrap"),
+    togglePast: document.getElementById("toggle-past"),
+    pastResults: document.getElementById("past-results")
   };
+
+  state.showPast = false;
+
+  // Today's date as YYYY-MM-DD (local). An event is "past" once its end date is before today.
+  function todayISO() {
+    var d = new Date();
+    var m = String(d.getMonth() + 1).padStart(2, "0");
+    var day = String(d.getDate()).padStart(2, "0");
+    return d.getFullYear() + "-" + m + "-" + day;
+  }
+  var TODAY = todayISO();
 
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
@@ -85,29 +99,49 @@
     return true;
   }
 
+  function eventCardHTML(r) {
+    var e = r.ev, p = r.provider;
+    var topics = (e.topics && e.topics.length ? e.topics : p.topics) || [];
+    var isFree = p.free || /free/i.test(e.cost || "");
+    return '<article class="event-card">' +
+      '<span class="date-badge">' + esc(fmtRange(e.start, e.end)) + "</span>" +
+      "<h3>" + esc(e.name) + "</h3>" +
+      '<p class="org">' + esc(p.name) + (p.location && p.location.city ? " · " + esc(p.location.city) + ", " + esc(p.location.state) : "") + "</p>" +
+      '<p class="focus">' + esc(e.focus || p.description) + "</p>" +
+      '<div class="meta">' +
+        (e.grades ? '<span class="tag grades">' + esc(e.grades) + "</span>" : "") +
+        (isFree ? '<span class="tag free">FREE</span>' : (e.cost ? '<span class="tag cost">' + esc(e.cost) + "</span>" : "")) +
+        topics.slice(0, 3).map(function (t) { return '<span class="tag">' + esc(t) + "</span>"; }).join("") +
+      "</div>" +
+      '<div class="card-foot">' +
+        (e.registrationUrl ? '<a class="btn" href="' + esc(e.registrationUrl) + '" target="_blank" rel="noopener">Register / Info ↗</a>' : "") +
+      "</div>" +
+    "</article>";
+  }
+
+  // An event is "past" once it has a known end date that is before today.
+  function isPast(ev) { return !!(ev.end && ev.end < TODAY); }
+
   function renderEvents() {
     var rows = flattenEvents().filter(function (r) { return eventMatches(r.ev, r.provider); });
-    els.resultCount.textContent = rows.length + " camp" + (rows.length === 1 ? "" : "s") + " & event" + (rows.length === 1 ? "" : "s") + " found";
-    els.empty.hidden = rows.length !== 0;
-    els.results.innerHTML = rows.map(function (r) {
-      var e = r.ev, p = r.provider;
-      var topics = (e.topics && e.topics.length ? e.topics : p.topics) || [];
-      var isFree = p.free || /free/i.test(e.cost || "");
-      return '<article class="event-card">' +
-        '<span class="date-badge">' + esc(fmtRange(e.start, e.end)) + "</span>" +
-        "<h3>" + esc(e.name) + "</h3>" +
-        '<p class="org">' + esc(p.name) + (p.location && p.location.city ? " · " + esc(p.location.city) + ", " + esc(p.location.state) : "") + "</p>" +
-        '<p class="focus">' + esc(e.focus || p.description) + "</p>" +
-        '<div class="meta">' +
-          (e.grades ? '<span class="tag grades">' + esc(e.grades) + "</span>" : "") +
-          (isFree ? '<span class="tag free">FREE</span>' : (e.cost ? '<span class="tag cost">' + esc(e.cost) + "</span>" : "")) +
-          topics.slice(0, 3).map(function (t) { return '<span class="tag">' + esc(t) + "</span>"; }).join("") +
-        "</div>" +
-        '<div class="card-foot">' +
-          (e.registrationUrl ? '<a class="btn" href="' + esc(e.registrationUrl) + '" target="_blank" rel="noopener">Register / Info ↗</a>' : "") +
-        "</div>" +
-      "</article>";
-    }).join("");
+    var upcoming = rows.filter(function (r) { return !isPast(r.ev); });
+    var past = rows.filter(function (r) { return isPast(r.ev); });
+
+    var n = upcoming.length;
+    els.resultCount.textContent = n + " upcoming camp" + (n === 1 ? "" : "s") + " & event" + (n === 1 ? "" : "s") + " found";
+    els.empty.hidden = !(n === 0 && past.length === 0);
+    els.results.innerHTML = upcoming.map(eventCardHTML).join("");
+
+    if (past.length) {
+      els.pastWrap.hidden = false;
+      els.togglePast.textContent = (state.showPast ? "▾ Hide past camps (" : "▸ Past camps (") + past.length + ")";
+      els.togglePast.setAttribute("aria-expanded", state.showPast ? "true" : "false");
+      els.pastResults.hidden = !state.showPast;
+      els.pastResults.innerHTML = state.showPast ? past.map(eventCardHTML).join("") : "";
+    } else {
+      els.pastWrap.hidden = true;
+      els.pastResults.innerHTML = "";
+    }
   }
 
   function renderProviders() {
@@ -169,6 +203,7 @@
     els.viewEvents.classList.toggle("active", v === "events");
     els.viewProviders.classList.toggle("active", v === "providers");
     els.month.parentElement.style.display = v === "events" ? "" : "none";
+    if (v === "providers") { els.pastWrap.hidden = true; els.pastResults.innerHTML = ""; }
     render();
   }
 
@@ -180,8 +215,9 @@
     els.free.addEventListener("change", function () { state.freeOnly = this.checked; render(); });
     els.viewEvents.addEventListener("click", function () { setView("events"); });
     els.viewProviders.addEventListener("click", function () { setView("providers"); });
+    els.togglePast.addEventListener("click", function () { state.showPast = !state.showPast; render(); });
     els.reset.addEventListener("click", function () {
-      state.search = state.topic = state.category = state.month = ""; state.freeOnly = false;
+      state.search = state.topic = state.category = state.month = ""; state.freeOnly = false; state.showPast = false;
       els.search.value = ""; els.topic.value = ""; els.category.value = ""; els.month.value = ""; els.free.checked = false;
       render();
     });
