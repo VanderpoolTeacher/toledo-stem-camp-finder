@@ -2,8 +2,8 @@
   "meta": {
     "title": "Toledo Metro K-12 STEM Camp Finder",
     "region": "Toledo, Ohio metro (Lucas County + Sylvania, Maumee, Perrysburg, Bowling Green, Oregon, Holland, Waterville)",
-    "lastUpdated": "2026-06-20",
-    "providerCount": 25,
+    "lastUpdated": "2026-06-22",
+    "providerCount": 26,
     "note": "Data compiled from adversarially-verified deep research. Verify dates and contacts before registering — programs change annually."
   },
   "topics": ["Robotics", "Coding", "AI", "Cybersecurity", "Engineering", "Science", "Manufacturing", "Forensics", "Marine/Aquatic", "Math", "Maker/3D Printing", "STEAM/Art", "Aviation", "Environmental"],
@@ -27,7 +27,7 @@
         { "name": "Advanced Manufacturing Camp", "focus": "Electronics, programming, robotics, 3D printing (semiconductors, AR)", "topics": ["Manufacturing", "Robotics"], "start": "2026-06-01", "end": "2026-06-05", "grades": "High school", "format": "Day camp", "cost": "", "registrationUrl": "https://www.bgsu.edu/pre-college-programs/summer-academic-and-youth-programs/advanced-manufacturing.html" },
         { "name": "Marine Biology: The Life Aquatic", "focus": "Marine ecosystems / aquatic science", "topics": ["Marine/Aquatic", "Science"], "start": "2026-06-08", "end": "2026-06-12", "grades": "Pre-K–12", "format": "Day camp", "cost": "", "registrationUrl": "https://www.bgsu.edu/pre-college-programs/summer-academic-and-youth-programs.html" },
         { "name": "Forensic Science Camp", "focus": "DNA analysis, trace evidence, fingerprinting, blood-stain analysis", "topics": ["Forensics", "Science"], "start": "2026-06-15", "end": "2026-06-19", "grades": "Pre-K–12", "format": "Virtual", "cost": "", "registrationUrl": "https://www.bgsu.edu/pre-college-programs/summer-academic-and-youth-programs.html" },
-        { "name": "CyberGuardians Camp", "focus": "AI-assisted ethical hacking, network security, Python, digital forensics", "topics": ["Cybersecurity", "AI", "Coding"], "start": "2026-06-22", "end": "2026-06-26", "grades": "Grades 8–11", "format": "Day camp", "cost": "", "registrationUrl": "https://www.bgsu.edu/arts-and-sciences/computer-science/cybercamp.html" }
+        { "name": "CyberGuardians Camp", "focus": "AI-assisted ethical hacking, network security, Python, digital forensics", "topics": ["Cybersecurity", "AI", "Coding"], "start": "2026-06-22", "end": "2026-06-26", "grades": "Grades 8–11", "format": "Day camp", "cost": "", "registrationUrl": "https://www.bgsu.edu/pre-college-programs/summer-academic-and-youth-programs/bg-cyber-guardians.html" }
       ]
     },
     {
@@ -45,7 +45,7 @@
       "verified": true,
       "sourceUrl": "https://www.utoledo.edu/jhc/centers/herb-innovation-center/events/camps/hands-on-ai-data-media-literacy/",
       "events": [
-        { "name": "Hands-On AI, Data & Media Literacy Camp", "focus": "AI fundamentals, data literacy, algorithms, media authenticity", "topics": ["AI"], "start": "2026-07-20", "end": "2026-07-24", "grades": "Middle school (gr 6–9)", "format": "Day camp (8:45am–12pm)", "cost": "$200 / $25 scholarship (OCCS students)", "registrationUrl": "https://www.utoledo.edu/jhc/centers/herb-innovation-center/events/camps/hands-on-ai-data-media-literacy/" },
+        { "name": "Hands-On AI, Data & Media Literacy Camp", "focus": "AI fundamentals, data literacy, algorithms, media authenticity", "topics": ["AI"], "start": "2026-07-20", "end": "2026-07-24", "grades": "Middle school", "format": "Day camp (8:45am–12pm)", "cost": "$200 / $25 scholarship (OCCS students)", "registrationUrl": "https://www.utoledo.edu/jhc/centers/herb-innovation-center/events/camps/hands-on-ai-data-media-literacy/" },
         { "name": "Engineering Summer Camp", "focus": "Hands-on engineering", "topics": ["Engineering"], "start": "2026-07-20", "end": "2026-07-24", "grades": "Grades 9–12", "format": "Day camp (9am–4pm)", "cost": "$225", "registrationUrl": "https://www.utoledo.edu/engineering/camp/" }
       ]
     },
@@ -210,7 +210,7 @@
       "topics": ["Science"],
       "description": "4-H STEM Pathways — hands-on, problem-based, inquiry learning; school programs channel.",
       "location": { "venue": "Toledo Botanical Garden, 5403 Elmer Dr", "city": "Toledo", "state": "OH", "zip": "43615" },
-      "contact": { "phone": "419-213-4254", "email": "", "website": "https://lucas.osu.edu/STEM", "namedContact": "4-H Educator line 419-574-0976" },
+      "contact": { "phone": "419-213-4254", "email": "soffee.1@osu.edu", "website": "https://lucas.osu.edu/STEM", "namedContact": "Jess Soffee, 4-H Youth Development Educator (419-574-0976)" },
       "gradesAges": "~Ages 5–19 / grade 3+",
       "cost": "Varies",
       "free": false,
@@ -231,7 +231,7 @@
       "cost": "Varies",
       "free": false,
       "season": "Summer 2026",
-      "verified": true,
+      "verified": false,
       "sourceUrl": "https://www.codeninjas.com/oh-sylvania/",
       "events": []
     },
@@ -243,7 +243,7 @@
       "description": "STEM/STEAM camps for ages 2–14.",
       "location": { "venue": "5243 Airport Hwy (inside Urban Air)", "city": "Toledo", "state": "OH", "zip": "43615" },
       "contact": { "phone": "419-370-0371", "email": "", "website": "https://www.snapology.com/ohio-toledo-west/camps/", "namedContact": "" },
-      "gradesAges": "Ages 2–14",
+      "gradesAges": "Ages 4–14 (camps 5–12)",
       "cost": "Varies",
       "free": false,
       "season": "Summer 2026",
@@ -257,13 +257,13 @@
       "category": "For-profit Franchise",
       "topics": ["Robotics", "Coding", "Engineering"],
       "description": "LEGO-based STEM/STEAM camps, robotics & coding for ages 5–13.",
-      "location": { "venue": "4204 W Sylvania Ave Suite 100", "city": "Toledo", "state": "OH", "zip": "43623" },
+      "location": { "venue": "4204 W Sylvania Ave Suite 101", "city": "Toledo", "state": "OH", "zip": "43623" },
       "contact": { "phone": "734-497-4422", "email": "", "website": "https://bricks4kidz.us/ohio-toledo/our-programs/camps/", "namedContact": "Shanyn Stewart" },
       "gradesAges": "Ages 5–13",
       "cost": "Varies",
       "free": false,
       "season": "Summer 2026",
-      "verified": true,
+      "verified": false,
       "sourceUrl": "https://bricks4kidz.us/ohio-toledo/our-programs/camps/",
       "events": []
     },
@@ -298,8 +298,8 @@
       "verified": true,
       "sourceUrl": "https://www.pentacareercenter.org/SummerCamps.aspx",
       "events": [
-        { "name": "STEM Camps", "focus": "General STEM", "topics": ["Science"], "start": "2026-06-01", "end": "2026-06-05", "grades": "Grades 3–5", "format": "Day camp (10am–3pm)", "cost": "", "registrationUrl": "https://www.pentacareercenter.org/SummerCamps.aspx" },
-        { "name": "STEM Camps (week 2)", "focus": "General STEM", "topics": ["Science"], "start": "2026-06-08", "end": "2026-06-12", "grades": "Grades 3–5", "format": "Day camp (10am–3pm)", "cost": "", "registrationUrl": "https://www.pentacareercenter.org/SummerCamps.aspx" },
+        { "name": "STEM Camps", "focus": "General STEM", "topics": ["Science"], "start": "2026-06-01", "end": "2026-06-05", "grades": "Grades 3–5", "format": "Day camp (10am–3pm)", "cost": "$85", "registrationUrl": "https://www.pentacareercenter.org/SummerCamps.aspx" },
+        { "name": "STEM Camps (week 2)", "focus": "General STEM", "topics": ["Science"], "start": "2026-06-08", "end": "2026-06-12", "grades": "Grades 3–5", "format": "Day camp (10am–3pm)", "cost": "$85", "registrationUrl": "https://www.pentacareercenter.org/SummerCamps.aspx" },
         { "name": "VEX Robotics Camp", "focus": "VEX robotics", "topics": ["Robotics"], "start": "2026-06-10", "end": "2026-06-12", "grades": "Grades 7–12", "format": "Day camp", "cost": "$50 (lunch + t-shirt)", "registrationUrl": "https://www.pentacareercenter.org/SummerCamps.aspx" },
         { "name": "STEM Deep Dive", "focus": "Intensive STEM", "topics": ["Science"], "start": "2026-06-11", "end": "2026-06-12", "grades": "Grades 6–9", "format": "Day camp", "cost": "", "registrationUrl": "https://www.pentacareercenter.org/SummerCamps.aspx" },
         { "name": "Advanced Robotics Camp", "focus": "VEX kits / advanced robotics", "topics": ["Robotics"], "start": "2026-06-13", "end": "2026-06-14", "grades": "High school", "format": "Day camp", "cost": "$45", "registrationUrl": "https://www.pentacareercenter.org/SummerCamps.aspx" }
@@ -310,7 +310,7 @@
       "name": "Camp Invention (National Inventors Hall of Fame)",
       "category": "School / Career Center",
       "topics": ["Engineering", "Science"],
-      "description": "Hands-on K–6 STEM day camp ('Spark' 2026 program), hosted in local schools. Find Toledo-area sites by ZIP.",
+      "description": "Hands-on K–6 STEM day camp (2026 program), hosted in local schools. Find Toledo-area sites by ZIP.",
       "location": { "venue": "Local host schools (search by ZIP)", "city": "Toledo metro", "state": "OH", "zip": "" },
       "contact": { "phone": "", "email": "", "website": "https://www.invent.org/programs/camp-invention", "namedContact": "" },
       "gradesAges": "Grades K–6 (LIT 7–9)",
@@ -395,7 +395,7 @@
       "topics": ["Robotics", "Coding", "Science"],
       "description": "Grassroots 501(c)(3): competitive FIRST robotics (grades 1–12), programming clinics, STEM summer camps.",
       "location": { "venue": "3315 Centennial Road area", "city": "Sylvania", "state": "OH", "zip": "43560" },
-      "contact": { "phone": "", "email": "", "website": "https://sylvaniastem.org/about", "namedContact": "Tom Burnworth (founder); confirm contact directly" },
+      "contact": { "phone": "", "email": "", "website": "https://sylvaniastem.org/about", "namedContact": "Tom Burnworth (Executive Director); founder Crystal Burnworth" },
       "gradesAges": "Grades 1–12",
       "cost": "Varies",
       "free": false,
@@ -409,7 +409,7 @@
       "name": "TTLMakerspace — Junior Worldbuilders",
       "category": "Grassroots / Independent",
       "topics": ["Maker/3D Printing"],
-      "description": "Youth maker program (ages 8–14). LEAD — not fully verified; confirm directly.",
+      "description": "Youth maker program (ages 8–14). LEAD — UNVERIFIED: ttlmakerspace.com resolves to the Toronto Tool Library (Toronto, Ontario), a geographic mismatch for a Toledo directory. Confirm this is the intended Toledo provider or remove.",
       "location": { "venue": "Toledo area", "city": "Toledo", "state": "OH", "zip": "" },
       "contact": { "phone": "", "email": "", "website": "https://ttlmakerspace.com", "namedContact": "Site bot-blocked — verify" },
       "gradesAges": "Ages 8–14",
@@ -434,6 +434,22 @@
       "season": "Cohorts + showcase",
       "verified": true,
       "sourceUrl": "https://www.empoweredai.org/young-empowered-authors",
+      "events": []
+    },
+    {
+      "id": "besn-x",
+      "name": "BESN X Community STEM Center",
+      "category": "Community / Nonprofit",
+      "topics": ["Coding", "Robotics", "AI", "STEAM/Art"],
+      "description": "NEW digital-equity STEM hub in South Toledo (Bridging Equity STEM and Networking): coding, robotics, AI, game development, esports, and green tech via after-school, weekend, and summer programming. Operating status and 2026 schedule not yet confirmed — verify directly before listing.",
+      "location": { "venue": "1244 Broadway St (Historic South / Old South End)", "city": "Toledo", "state": "OH", "zip": "" },
+      "contact": { "phone": "404-603-0572", "email": "info@besnxc.org", "website": "https://www.besnxc.org/", "namedContact": "" },
+      "gradesAges": "K–12",
+      "cost": "Free / low-cost (scholarships)",
+      "free": false,
+      "season": "After-school, weekend & summer",
+      "verified": false,
+      "sourceUrl": "https://www.besnxc.org/post/besn-x-community-stem-center",
       "events": []
     }
   ]
