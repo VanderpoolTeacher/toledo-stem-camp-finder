@@ -2,7 +2,7 @@
   "meta": {
     "title": "Toledo Metro K-12 STEM Camp Finder",
     "region": "Toledo, Ohio metro (Lucas County + Sylvania, Maumee, Perrysburg, Bowling Green, Oregon, Holland, Waterville)",
-    "lastUpdated": "2026-06-29",
+    "lastUpdated": "2026-07-07",
     "providerCount": 25,
     "note": "Data compiled from adversarially-verified deep research. Verify dates and contacts before registering — programs change annually."
   },
@@ -84,6 +84,8 @@
         { "name": "Destination: 2100", "focus": "Future-tech science", "topics": ["Science"], "start": "2026-06-22", "end": "2026-06-26", "grades": "Ages 9–13", "format": "Day camp", "cost": "", "registrationUrl": "https://www.imaginationstationtoledo.org/visit/events" },
         { "name": "Mini Maker", "focus": "Maker/STEM", "topics": ["Science", "Maker/3D Printing"], "start": "2026-07-20", "end": "2026-07-24", "grades": "Ages 6–8", "format": "Day camp", "cost": "", "registrationUrl": "https://www.imaginationstationtoledo.org/visit/events" },
         { "name": "Lights, Camera, Science", "focus": "Science of film/media", "topics": ["Science"], "start": "2026-07-20", "end": "2026-07-24", "grades": "Ages 9–13", "format": "Day camp", "cost": "", "registrationUrl": "https://www.imaginationstationtoledo.org/visit/events" },
+        { "name": "The Greatest Camp on Earth", "focus": "Hands-on science", "topics": ["Science"], "start": "2026-07-27", "end": "2026-07-31", "grades": "Ages 6–8", "format": "Day camp", "cost": "", "registrationUrl": "https://www.imaginationstationtoledo.org/visit/events" },
+        { "name": "IS Fashion Week", "focus": "Science of design/materials", "topics": ["Science", "STEAM/Art"], "start": "2026-07-27", "end": "2026-07-31", "grades": "Ages 9–13", "format": "Day camp", "cost": "", "registrationUrl": "https://www.imaginationstationtoledo.org/visit/events" },
         { "name": "The Greatest Camp on Earth", "focus": "Hands-on science", "topics": ["Science"], "start": "2026-08-03", "end": "2026-08-07", "grades": "Ages 6–8", "format": "Day camp", "cost": "", "registrationUrl": "https://www.imaginationstationtoledo.org/visit/events" },
         { "name": "IS Fashion Week", "focus": "Science of design/materials", "topics": ["Science", "STEAM/Art"], "start": "2026-08-03", "end": "2026-08-07", "grades": "Ages 9–13", "format": "Day camp", "cost": "", "registrationUrl": "https://www.imaginationstationtoledo.org/visit/events" }
       ]
@@ -95,7 +97,7 @@
       "topics": ["Science", "Environmental", "Marine/Aquatic"],
       "description": "Summer Safari Camp and a Spring Break Camp for a Day with STEM tracks: animal behavior, jr. zookeeper, ornithology, aquatic science.",
       "location": { "venue": "Toledo Zoo & Aquarium", "city": "Toledo", "state": "OH", "zip": "43609" },
-      "contact": { "phone": "", "email": "", "website": "https://www.toledozoo.org/education/camps", "namedContact": "Route outreach via website" },
+      "contact": { "phone": "419-385-5721", "email": "education@toledozoo.org", "website": "https://www.toledozoo.org/education/camps", "namedContact": "Education Dept." },
       "gradesAges": "Ages 4–15",
       "cost": "Varies",
       "free": false,
@@ -112,14 +114,14 @@
       "name": "Challenger Learning Center (ESC of Lake Erie West)",
       "category": "Science Center / Zoo / Museum",
       "topics": ["Science", "Engineering", "Aviation"],
-      "description": "NASA-style space-station/mission-control simulations. NOTE: summer camps PAUSED for 2026, resuming summer 2027.",
+      "description": "NASA-style space-station/mission-control simulations. STATUS CONFLICT (2026-07-07): a 2026 camp registration page (LocalLevelEvents #42070) lists in-person 2026 camps — NASA ACCP ASTRO, One Giant Leap! (grades 5–8), All STEAMed Up! — at $150/week, 9am–3pm, May 1 deadline; but our prior note had 2026 as PAUSED (resuming 2027). The ESC official SummerCamp.aspx is bot-blocked (HTTP 403), so 2026 status could not be authoritatively confirmed. Human should verify directly.",
       "location": { "venue": "4955 Seaman Rd (simulation site); ESC at 2275 Collingwood Blvd", "city": "Oregon / Toledo", "state": "OH", "zip": "43616" },
       "contact": { "phone": "419-725-5926", "email": "challengerlc@esclakeeriewest.org", "website": "https://www.esclakeeriewest.org/ChallengerLearningCenter.aspx", "namedContact": "" },
       "gradesAges": "K–12",
       "cost": "Varies",
       "free": false,
-      "season": "PAUSED 2026 — resumes Summer 2027",
-      "verified": true,
+      "season": "2026 status UNCONFIRMED (see description); camps confirmed resuming Summer 2027",
+      "verified": false,
       "sourceUrl": "https://www.esclakeeriewest.org/SummerCamp.aspx",
       "events": []
     },
@@ -305,7 +307,7 @@
         { "name": "STEM Camps", "focus": "General STEM", "topics": ["Science"], "start": "2026-06-01", "end": "2026-06-05", "grades": "Grades 3–5", "format": "Day camp (10am–3pm)", "cost": "$85", "registrationUrl": "https://www.pentacareercenter.org/SummerCamps.aspx" },
         { "name": "STEM Camps (week 2)", "focus": "General STEM", "topics": ["Science"], "start": "2026-06-08", "end": "2026-06-12", "grades": "Grades 3–5", "format": "Day camp (10am–3pm)", "cost": "$85", "registrationUrl": "https://www.pentacareercenter.org/SummerCamps.aspx" },
         { "name": "VEX Robotics Camp", "focus": "VEX robotics", "topics": ["Robotics"], "start": "2026-06-10", "end": "2026-06-12", "grades": "Grades 7–12", "format": "Day camp", "cost": "$50 (lunch + t-shirt)", "registrationUrl": "https://www.pentacareercenter.org/SummerCamps.aspx" },
-        { "name": "STEM Deep Dive", "focus": "Intensive STEM", "topics": ["Science"], "start": "2026-06-08", "end": "2026-06-12", "grades": "Grades 6–9", "format": "Day camp", "cost": "", "registrationUrl": "https://www.pentacareercenter.org/SummerCamps.aspx" },
+        { "name": "STEM Deep Dive", "focus": "Intensive STEM (2-day)", "topics": ["Science"], "start": "2026-06-11", "end": "2026-06-12", "grades": "Grades 6–9", "format": "Day camp", "cost": "", "registrationUrl": "https://www.pentacareercenter.org/SummerCamps.aspx" },
         { "name": "Advanced Robotics Camp", "focus": "VEX kits / advanced robotics", "topics": ["Robotics"], "start": "2026-06-13", "end": "2026-06-14", "grades": "High school", "format": "Day camp", "cost": "$45", "registrationUrl": "https://www.pentacareercenter.org/SummerCamps.aspx" }
       ]
     },
@@ -314,7 +316,7 @@
       "name": "Camp Invention (National Inventors Hall of Fame)",
       "category": "School / Career Center",
       "topics": ["Engineering", "Science"],
-      "description": "Hands-on K–6 STEM day camp (2026 program), hosted in local schools. Find Toledo-area sites by ZIP.",
+      "description": "Hands-on K–6 STEM day camp ('Spark' 2026 program), hosted in local schools; Grove Patterson Academy (Toledo) confirmed as a 2026 host site. Find other Toledo-area sites by ZIP at invent.org/program-search.",
       "location": { "venue": "Local host schools (search by ZIP)", "city": "Toledo metro", "state": "OH", "zip": "" },
       "contact": { "phone": "", "email": "", "website": "https://www.invent.org/programs/camp-invention", "namedContact": "" },
       "gradesAges": "Grades K–6 (LIT 7–9)",
