@@ -2,8 +2,8 @@
   "meta": {
     "title": "Toledo Metro K-12 STEM Camp Finder",
     "region": "Toledo, Ohio metro (Lucas County + Sylvania, Maumee, Perrysburg, Bowling Green, Oregon, Holland, Waterville)",
-    "lastUpdated": "2026-07-07",
-    "providerCount": 25,
+    "lastUpdated": "2026-07-13",
+    "providerCount": 24,
     "note": "Data compiled from adversarially-verified deep research. Verify dates and contacts before registering — programs change annually."
   },
   "topics": ["Robotics", "Coding", "AI", "Cybersecurity", "Engineering", "Science", "Manufacturing", "Forensics", "Marine/Aquatic", "Math", "Maker/3D Printing", "STEAM/Art", "Aviation", "Environmental"],
@@ -114,7 +114,7 @@
       "name": "Challenger Learning Center (ESC of Lake Erie West)",
       "category": "Science Center / Zoo / Museum",
       "topics": ["Science", "Engineering", "Aviation"],
-      "description": "NASA-style space-station/mission-control simulations. STATUS CONFLICT (2026-07-07): a 2026 camp registration page (LocalLevelEvents #42070) lists in-person 2026 camps — NASA ACCP ASTRO, One Giant Leap! (grades 5–8), All STEAMed Up! — at $150/week, 9am–3pm, May 1 deadline; but our prior note had 2026 as PAUSED (resuming 2027). The ESC official SummerCamp.aspx is bot-blocked (HTTP 403), so 2026 status could not be authoritatively confirmed. Human should verify directly.",
+      "description": "NASA-style space-station/mission-control simulations. STATUS (re-checked 2026-07-13): the LocalLevelEvents #42070 page that appeared to list in-person 2026 camps (NASA ACCP ASTRO, One Giant Leap! grades 5–8, All STEAMed Up!, $150/week, 9am–3pm, May 1 deadline) carries a banner reading 'This event has not yet been published!' — it is an unpublished draft, not a live registration, which is consistent with 2026 being PAUSED rather than running. The ESC official SummerCamp.aspx remains bot-blocked (HTTP 403), so 2026 status cannot be authoritatively confirmed and camps are expected to resume Summer 2027. Human should verify directly before relying on this.",
       "location": { "venue": "4955 Seaman Rd (simulation site); ESC at 2275 Collingwood Blvd", "city": "Oregon / Toledo", "state": "OH", "zip": "43616" },
       "contact": { "phone": "419-725-5926", "email": "challengerlc@esclakeeriewest.org", "website": "https://www.esclakeeriewest.org/ChallengerLearningCenter.aspx", "namedContact": "" },
       "gradesAges": "K–12",
@@ -223,22 +223,6 @@
       "season": "School-year + clubs",
       "verified": true,
       "sourceUrl": "https://lucas.osu.edu/STEM",
-      "events": []
-    },
-    {
-      "id": "code-ninjas",
-      "name": "Code Ninjas Sylvania",
-      "category": "For-profit Franchise",
-      "topics": ["Coding", "Robotics"],
-      "description": "Coding, robotics, and problem-solving camps for ages 7–14. UNVERIFIED — official location page (codeninjas.com/oh-sylvania) now returns 404, the site is absent from the Code Ninjas locations directory, and the Sylvania suite appears vacant/closed (Yelp/search, 2025). Confirm closure or remove.",
-      "location": { "venue": "4024 N Holland Sylvania Rd, Suite 10 & 11", "city": "Toledo", "state": "OH", "zip": "43623" },
-      "contact": { "phone": "", "email": "", "website": "https://www.codeninjas.com/oh-sylvania/", "namedContact": "Contact via franchise page" },
-      "gradesAges": "Ages 7–14",
-      "cost": "Varies",
-      "free": false,
-      "season": "Summer 2026",
-      "verified": false,
-      "sourceUrl": "https://www.codeninjas.com/oh-sylvania/",
       "events": []
     },
     {
@@ -391,7 +375,8 @@
       "sourceUrl": "https://nmgl.org/event/capt-scuppers-kids-club-community-scientists-3/",
       "events": [
         { "name": "Capt. Scupper's Kid's Club — Recycled Regatta", "focus": "Engineering / recycled-boat building", "topics": ["Engineering", "Environmental"], "start": "2026-06-06", "end": "2026-06-27", "grades": "Ages ≤13", "format": "Recurring Saturdays 10:30am (Jun 6, 13, 20, 27)", "cost": "", "registrationUrl": "https://www.eventbrite.com/e/capt-scuppers-kids-club-recycled-regatta-tickets-1988407442186" },
-        { "name": "Capt. Scupper's Kid's Club — Community Scientists", "focus": "Maumee River water-quality testing", "topics": ["Environmental", "Science"], "start": "2026-07-11", "end": "2026-07-25", "grades": "Ages ≤13", "format": "Recurring Saturdays 10:30am (Jul 11, 18, 25)", "cost": "", "registrationUrl": "https://www.eventbrite.com/e/capt-scuppers-kids-club-community-scientists-tickets-1991572756727" }
+        { "name": "Capt. Scupper's Kid's Club — Community Scientists", "focus": "Maumee River water-quality testing", "topics": ["Environmental", "Science"], "start": "2026-07-11", "end": "2026-07-25", "grades": "Ages ≤13", "format": "Recurring Saturdays 10:30am (Jul 11, 18, 25)", "cost": "", "registrationUrl": "https://www.eventbrite.com/e/capt-scuppers-kids-club-community-scientists-tickets-1991572756727" },
+        { "name": "Capt. Scupper's Kid's Club — Lego on the Lakes", "focus": "LEGO engineering / Great Lakes STEM", "topics": ["Engineering", "Maker/3D Printing"], "start": "2026-08-01", "end": "2026-08-29", "grades": "Ages ≤13", "format": "Recurring Saturdays 10:30am–1:30pm, drop-in (no registration); free with admission", "cost": "Free with museum admission", "registrationUrl": "https://nmgl.org/event/capt-scuppers-kids-club-lego-on-the-lakes/" }
       ]
     },
     {
@@ -439,7 +424,7 @@
       "free": false,
       "season": "After-school, weekend & summer",
       "verified": false,
-      "sourceUrl": "https://www.besnxc.org/post/besn-x-community-stem-center",
+      "sourceUrl": "https://www.besnxc.org/",
       "events": []
     }
   ]
