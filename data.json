@@ -2,8 +2,8 @@
   "meta": {
     "title": "Toledo Metro K-12 STEM Camp Finder",
     "region": "Toledo, Ohio metro (Lucas County + Sylvania, Maumee, Perrysburg, Bowling Green, Oregon, Holland, Waterville)",
-    "lastUpdated": "2026-06-20",
-    "providerCount": 25,
+    "lastUpdated": "2026-07-20",
+    "providerCount": 26,
     "note": "Data compiled from adversarially-verified deep research. Verify dates and contacts before registering — programs change annually."
   },
   "topics": ["Robotics", "Coding", "AI", "Cybersecurity", "Engineering", "Science", "Manufacturing", "Forensics", "Marine/Aquatic", "Math", "Maker/3D Printing", "STEAM/Art", "Aviation", "Environmental"],
@@ -56,14 +56,25 @@
       "topics": ["Robotics", "Coding", "Maker/3D Printing", "Forensics", "Science"],
       "description": "Week-long STEM camps at Owens' Perrysburg campus: forensics, LEGO Spike robotics, Micro:bit, Tinkercad/3D printing, pinball physics.",
       "location": { "venue": "Dana Advanced Manufacturing Training Center, Owens Perrysburg campus", "city": "Perrysburg", "state": "OH", "zip": "43551" },
-      "contact": { "phone": "", "email": "", "website": "https://koolkatscience.net/", "namedContact": "" },
+      "contact": { "phone": "", "email": "", "website": "https://koolkatscience.org/", "namedContact": "" },
       "gradesAges": "Ages 6–12",
-      "cost": "Varies",
+      "cost": "Varies (costs not published on 2026 schedule)",
       "free": false,
-      "season": "Summer (confirm 2026 dates)",
+      "season": "Summer 2026",
       "verified": true,
-      "sourceUrl": "https://koolkatscience.net/toledo-oh/summer-camps-owns-2025/",
-      "events": []
+      "sourceUrl": "https://koolkatscience.org/engineering/summer-camps-at-owens-community-college26/",
+      "events": [
+        { "name": "Coding with Scratch Jr", "focus": "Intro coding for young learners", "topics": ["Coding"], "start": "2026-06-08", "end": "2026-06-11", "grades": "Ages 6–8", "format": "Day camp", "cost": "", "registrationUrl": "https://koolkatscience.org/engineering/summer-camps-at-owens-community-college26/" },
+        { "name": "Lego Spike Essentials", "focus": "LEGO Spike robotics", "topics": ["Robotics"], "start": "2026-06-15", "end": "2026-06-18", "grades": "Ages 6–8", "format": "Day camp", "cost": "", "registrationUrl": "https://koolkatscience.org/engineering/summer-camps-at-owens-community-college26/" },
+        { "name": "Planet Hopping with Ozobots", "focus": "Ozobot robotics", "topics": ["Robotics", "Coding"], "start": "2026-06-22", "end": "2026-06-25", "grades": "Ages 6–8", "format": "Day camp", "cost": "", "registrationUrl": "https://koolkatscience.org/engineering/summer-camps-at-owens-community-college26/" },
+        { "name": "Zoo Animal Habitat", "focus": "Habitat science/engineering", "topics": ["Science"], "start": "2026-07-27", "end": "2026-07-31", "grades": "Ages 6–8", "format": "Day camp", "cost": "", "registrationUrl": "https://koolkatscience.org/engineering/summer-camps-at-owens-community-college26/" },
+        { "name": "Fairytale Forensics", "focus": "Intro forensic science", "topics": ["Forensics", "Science"], "start": "2026-08-03", "end": "2026-08-07", "grades": "Ages 6–8", "format": "Day camp", "cost": "", "registrationUrl": "https://koolkatscience.org/engineering/summer-camps-at-owens-community-college26/" },
+        { "name": "AI and Machine Learning", "focus": "AI/ML fundamentals", "topics": ["AI", "Coding"], "start": "2026-06-08", "end": "2026-06-11", "grades": "Ages 9–12", "format": "Day camp", "cost": "", "registrationUrl": "https://koolkatscience.org/engineering/summer-camps-at-owens-community-college26/" },
+        { "name": "Intro to Robot Electronics", "focus": "Robot electronics", "topics": ["Robotics", "Engineering"], "start": "2026-06-15", "end": "2026-06-18", "grades": "Ages 9–12", "format": "Day camp", "cost": "", "registrationUrl": "https://koolkatscience.org/engineering/summer-camps-at-owens-community-college26/" },
+        { "name": "Intro to Electronics Soldering", "focus": "Soldering / electronics", "topics": ["Engineering", "Maker/3D Printing"], "start": "2026-06-22", "end": "2026-06-26", "grades": "Ages 9–12", "format": "Day camp", "cost": "", "registrationUrl": "https://koolkatscience.org/engineering/summer-camps-at-owens-community-college26/" },
+        { "name": "Intro to Tinkercad and 3D Printing", "focus": "Tinkercad / 3D printing", "topics": ["Maker/3D Printing"], "start": "2026-07-27", "end": "2026-07-31", "grades": "Ages 9–12", "format": "Day camp", "cost": "", "registrationUrl": "https://koolkatscience.org/engineering/summer-camps-at-owens-community-college26/" },
+        { "name": "Advanced Tinkercad and 3D Printing", "focus": "Advanced Tinkercad / 3D printing", "topics": ["Maker/3D Printing"], "start": "2026-08-03", "end": "2026-08-07", "grades": "Ages 9–12", "format": "Day camp", "cost": "", "registrationUrl": "https://koolkatscience.org/engineering/summer-camps-at-owens-community-college26/" }
+      ]
     },
     {
       "id": "imagination-station",
@@ -76,12 +87,16 @@
       "gradesAges": "Ages 6–13",
       "cost": "Varies",
       "free": false,
-      "season": "Summer 2026 (weekly, ~June 8–Aug 14)",
+      "season": "Summer 2026 (weekly through mid-August)",
       "verified": true,
       "sourceUrl": "https://www.imaginationstationtoledo.org/visit/events",
       "events": [
-        { "name": "Super Splatter Science", "focus": "Hands-on science", "topics": ["Science"], "start": "2026-06-22", "end": "2026-06-26", "grades": "Ages 6–8", "format": "Day camp", "cost": "", "registrationUrl": "https://www.imaginationstationtoledo.org/visit/events" },
-        { "name": "Destination: 2100", "focus": "Future-tech science", "topics": ["Science"], "start": "2026-06-22", "end": "2026-06-26", "grades": "Ages 9–13", "format": "Day camp", "cost": "", "registrationUrl": "https://www.imaginationstationtoledo.org/visit/events" }
+        { "name": "Lights, Camera, Science", "focus": "Hands-on science", "topics": ["Science"], "start": "2026-07-20", "end": "2026-07-24", "grades": "Ages 9–13", "format": "Day camp", "cost": "", "registrationUrl": "https://www.imaginationstationtoledo.org/visit/events" },
+        { "name": "Mini Maker", "focus": "Maker / hands-on science", "topics": ["Science", "Maker/3D Printing"], "start": "2026-07-20", "end": "2026-07-24", "grades": "Ages 6–8", "format": "Day camp", "cost": "", "registrationUrl": "https://www.imaginationstationtoledo.org/visit/events" },
+        { "name": "IS Fashion Week", "focus": "Science of design & materials", "topics": ["Science", "STEAM/Art"], "start": "2026-07-27", "end": "2026-07-31", "grades": "Ages 9–13", "format": "Day camp", "cost": "", "registrationUrl": "https://www.imaginationstationtoledo.org/visit/events" },
+        { "name": "The Greatest Camp on Earth", "focus": "Hands-on science", "topics": ["Science"], "start": "2026-07-27", "end": "2026-07-31", "grades": "Ages 6–8", "format": "Day camp", "cost": "", "registrationUrl": "https://www.imaginationstationtoledo.org/visit/events" },
+        { "name": "IS Fashion Week (week of Aug 3)", "focus": "Science of design & materials", "topics": ["Science", "STEAM/Art"], "start": "2026-08-03", "end": "2026-08-07", "grades": "Ages 9–13", "format": "Day camp", "cost": "", "registrationUrl": "https://www.imaginationstationtoledo.org/visit/events" },
+        { "name": "The Greatest Camp on Earth (week of Aug 3)", "focus": "Hands-on science", "topics": ["Science"], "start": "2026-08-03", "end": "2026-08-07", "grades": "Ages 6–8", "format": "Day camp", "cost": "", "registrationUrl": "https://www.imaginationstationtoledo.org/visit/events" }
       ]
     },
     {
@@ -108,13 +123,13 @@
       "name": "Challenger Learning Center (ESC of Lake Erie West)",
       "category": "Science Center / Zoo / Museum",
       "topics": ["Science", "Engineering", "Aviation"],
-      "description": "NASA-style space-station/mission-control simulations. NOTE: summer camps PAUSED for 2026, resuming summer 2027.",
+      "description": "NASA-style space-station/mission-control simulations. 2026 summer camps ran (concluded); next session Summer 2027, with registration expected to open January 2027.",
       "location": { "venue": "4955 Seaman Rd (simulation site); ESC at 2275 Collingwood Blvd", "city": "Oregon / Toledo", "state": "OH", "zip": "43616" },
       "contact": { "phone": "419-725-5926", "email": "challengerlc@esclakeeriewest.org", "website": "https://www.esclakeeriewest.org/ChallengerLearningCenter.aspx", "namedContact": "" },
       "gradesAges": "K–12",
       "cost": "Varies",
       "free": false,
-      "season": "PAUSED 2026 — resumes Summer 2027",
+      "season": "Summer 2027 (registration expected Jan 2027)",
       "verified": true,
       "sourceUrl": "https://www.esclakeeriewest.org/SummerCamp.aspx",
       "events": []
@@ -160,7 +175,7 @@
       "topics": ["Robotics", "Coding", "Maker/3D Printing"],
       "description": "FREE makerspaces (3D printers, Cricut, vinyl), plus Rookie Robotics and STEM in the Stacks programs run with Kool Kat Science.",
       "location": { "venue": "Birmingham branch, 203 Paine Ave; Heatherdowns branch, 3265 Glanzman Rd", "city": "Toledo", "state": "OH", "zip": "43605" },
-      "contact": { "phone": "419-259-5210", "email": "", "website": "https://www.toledolibrary.org/making/", "namedContact": "" },
+      "contact": { "phone": "419-259-5210", "email": "making@toledolibrary.org", "website": "https://www.toledolibrary.org/making/", "namedContact": "" },
       "gradesAges": "Grades 3–6 (programs); all ages (makerspaces)",
       "cost": "FREE (modest material fees)",
       "free": true,
@@ -210,7 +225,7 @@
       "topics": ["Science"],
       "description": "4-H STEM Pathways — hands-on, problem-based, inquiry learning; school programs channel.",
       "location": { "venue": "Toledo Botanical Garden, 5403 Elmer Dr", "city": "Toledo", "state": "OH", "zip": "43615" },
-      "contact": { "phone": "419-213-4254", "email": "", "website": "https://lucas.osu.edu/STEM", "namedContact": "4-H Educator line 419-574-0976" },
+      "contact": { "phone": "419-213-4254", "email": "soffee.1@osu.edu", "website": "https://lucas.osu.edu/STEM", "namedContact": "Jess Soffee, 4-H Youth Development Educator (419-574-0976)" },
       "gradesAges": "~Ages 5–19 / grade 3+",
       "cost": "Varies",
       "free": false,
@@ -224,14 +239,14 @@
       "name": "Code Ninjas Sylvania",
       "category": "For-profit Franchise",
       "topics": ["Coding", "Robotics"],
-      "description": "Coding, robotics, and problem-solving camps for ages 7–14.",
+      "description": "Coding, robotics, and problem-solving camps for ages 7–14. NOTE: franchise location page returned 404 in July 2026 and some recent reviews mention operational changes — confirm the Sylvania center is still open before referring families.",
       "location": { "venue": "4024 N Holland Sylvania Rd, Suite 10 & 11", "city": "Toledo", "state": "OH", "zip": "43623" },
-      "contact": { "phone": "", "email": "", "website": "https://www.codeninjas.com/oh-sylvania/", "namedContact": "Contact via franchise page" },
+      "contact": { "phone": "419-605-0970", "email": "", "website": "https://www.codeninjas.com/oh-sylvania/", "namedContact": "Contact via franchise page" },
       "gradesAges": "Ages 7–14",
       "cost": "Varies",
       "free": false,
       "season": "Summer 2026",
-      "verified": true,
+      "verified": false,
       "sourceUrl": "https://www.codeninjas.com/oh-sylvania/",
       "events": []
     },
@@ -256,14 +271,14 @@
       "name": "Bricks 4 Kidz Toledo",
       "category": "For-profit Franchise",
       "topics": ["Robotics", "Coding", "Engineering"],
-      "description": "LEGO-based STEM/STEAM camps, robotics & coding for ages 5–13.",
-      "location": { "venue": "4204 W Sylvania Ave Suite 100", "city": "Toledo", "state": "OH", "zip": "43623" },
+      "description": "LEGO-based STEM/STEAM camps, robotics & coding for ages 5–13. 2026 camps confirmed running (held at Bricks & Minifigs, 4204 W Sylvania Ave). NOTE: listed phone/contact could not be re-verified from an official source in July 2026 — confirm before publishing.",
+      "location": { "venue": "4204 W Sylvania Ave Suite 100 (Bricks & Minifigs)", "city": "Toledo", "state": "OH", "zip": "43623" },
       "contact": { "phone": "734-497-4422", "email": "", "website": "https://bricks4kidz.us/ohio-toledo/our-programs/camps/", "namedContact": "Shanyn Stewart" },
       "gradesAges": "Ages 5–13",
       "cost": "Varies",
       "free": false,
       "season": "Summer 2026",
-      "verified": true,
+      "verified": false,
       "sourceUrl": "https://bricks4kidz.us/ohio-toledo/our-programs/camps/",
       "events": []
     },
@@ -274,7 +289,7 @@
       "topics": ["Coding", "Robotics", "Math"],
       "description": "STEM Camps for elementary through early high school across three metro centers.",
       "location": { "venue": "1566 Spring Meadows Dr (main)", "city": "Holland", "state": "OH", "zip": "43528" },
-      "contact": { "phone": "419-491-4001", "email": "", "website": "https://www.sylvanlearning.com/locations/us/oh/toledo-tutoring/", "namedContact": "" },
+      "contact": { "phone": "419-549-8906", "email": "", "website": "https://www.sylvanlearning.com/locations/us/oh/toledo-tutoring/", "namedContact": "" },
       "gradesAges": "Elementary–early HS",
       "cost": "~$200+/camp",
       "free": false,
@@ -360,7 +375,7 @@
       "topics": ["STEAM/Art"],
       "description": "Youth (3–13) and teen (14–18) studio art classes — STEAM creative skills.",
       "location": { "venue": "Toledo Museum of Art", "city": "Toledo", "state": "OH", "zip": "43620" },
-      "contact": { "phone": "", "email": "", "website": "https://toledomuseum.org/learn/classes-workshops", "namedContact": "Via website" },
+      "contact": { "phone": "419-255-8000", "email": "", "website": "https://toledomuseum.org/learn/classes-workshops", "namedContact": "Via website" },
       "gradesAges": "Ages 3–18",
       "cost": "Varies",
       "free": false,
@@ -385,7 +400,7 @@
       "sourceUrl": "https://nmgl.org/event/capt-scuppers-kids-club-community-scientists-3/",
       "events": [
         { "name": "Capt. Scupper's Kid's Club — Recycled Regatta", "focus": "Engineering / recycled-boat building", "topics": ["Engineering", "Environmental"], "start": "2026-06-06", "end": "2026-06-27", "grades": "Ages ≤13", "format": "Recurring Saturdays 10:30am (Jun 6, 13, 20, 27)", "cost": "", "registrationUrl": "https://www.eventbrite.com/e/capt-scuppers-kids-club-recycled-regatta-tickets-1988407442186" },
-        { "name": "Capt. Scupper's Kid's Club — Community Scientists", "focus": "Maumee River water-quality testing", "topics": ["Environmental", "Science"], "start": "2026-07-11", "end": "2026-07-25", "grades": "Ages ≤13", "format": "Recurring Saturdays 10:30am (Jul 11, 18, 25)", "cost": "", "registrationUrl": "https://www.eventbrite.com/e/capt-scuppers-kids-club-community-scientists-tickets-1991572756727" }
+        { "name": "Capt. Scupper's Kid's Club — Community Scientists", "focus": "Maumee River water-quality testing", "topics": ["Environmental", "Science"], "start": "2026-07-11", "end": "2026-07-25", "grades": "Ages ≤13", "format": "Recurring Saturdays 10:30am–1:30pm (Jul 11, 18, 25)", "cost": "Free with museum admission (free for members & Museums for All)", "registrationUrl": "https://www.eventbrite.com/e/capt-scuppers-kids-club-community-scientists-tickets-1991572756727" }
       ]
     },
     {
@@ -427,7 +442,7 @@
       "topics": ["AI", "Coding"],
       "description": "FREE program where kids use AI tools to write and publish their own books on Amazon. Signature 'Publishers Party' showcase.",
       "location": { "venue": "Toledo (Art Tatum Zone / City of Toledo partners)", "city": "Toledo", "state": "OH", "zip": "" },
-      "contact": { "phone": "616-443-0392", "email": "info@empoweredai.org", "website": "https://www.empoweredai.org/young-empowered-authors", "namedContact": "Confirm phone (a 2024 listing showed 419.315.6789)" },
+      "contact": { "phone": "616-443-0392", "email": "info@empoweredai.org", "website": "https://www.empoweredai.org/young-empowered-authors", "namedContact": "" },
       "gradesAges": "K–12 (cohorts ages 7–12)",
       "cost": "FREE (full scholarships)",
       "free": true,
@@ -435,6 +450,26 @@
       "verified": true,
       "sourceUrl": "https://www.empoweredai.org/young-empowered-authors",
       "events": []
+    },
+    {
+      "id": "maumee-valley-ivy",
+      "name": "Maumee Valley Country Day School (Ivy Camps USA Summer Program)",
+      "category": "School / Career Center",
+      "topics": ["Science", "Engineering", "Coding", "Robotics"],
+      "description": "PK–8 summer day camps in partnership with Ivy Camps USA, including several STEM tracks (earth & space science, engineering, animal science, game design). Weekly sessions.",
+      "location": { "venue": "Maumee Valley Country Day School, 1715 S Reynolds Rd", "city": "Toledo", "state": "OH", "zip": "43614" },
+      "contact": { "phone": "419-381-1313", "email": "", "website": "https://www.mvcds.org/beyond-the-classroom/summer-programs/", "namedContact": "" },
+      "gradesAges": "PK–8th grade",
+      "cost": "$299/week (K–8); $330/week (PK/JK)",
+      "free": false,
+      "season": "Summer 2026 (weekly, June 15–July 31; no camp June 19 or June 29–July 3)",
+      "verified": true,
+      "sourceUrl": "https://www.mvcds.org/beyond-the-classroom/summer-programs/",
+      "events": [
+        { "name": "Extreme Science: Earth & Space", "focus": "Earth & space science", "topics": ["Science"], "start": "2026-06-15", "end": "2026-07-31", "grades": "K–8", "format": "Weekly day-camp session (specific week varies)", "cost": "$299/week", "registrationUrl": "https://www.mvcds.org/beyond-the-classroom/summer-programs/" },
+        { "name": "Engineer a Better World with Lego", "focus": "LEGO engineering", "topics": ["Engineering", "Robotics"], "start": "2026-06-15", "end": "2026-07-31", "grades": "K–8", "format": "Weekly day-camp session (specific week varies)", "cost": "$299/week", "registrationUrl": "https://www.mvcds.org/beyond-the-classroom/summer-programs/" },
+        { "name": "Engineering: Game Design & Escape Rooms", "focus": "Game design / coding logic", "topics": ["Coding", "Engineering"], "start": "2026-06-15", "end": "2026-07-31", "grades": "K–8", "format": "Weekly day-camp session (specific week varies)", "cost": "$299/week", "registrationUrl": "https://www.mvcds.org/beyond-the-classroom/summer-programs/" }
+      ]
     }
   ]
 }
