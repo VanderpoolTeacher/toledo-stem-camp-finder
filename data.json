@@ -2,7 +2,7 @@
   "meta": {
     "title": "Toledo Metro K-12 STEM Camp Finder",
     "region": "Toledo, Ohio metro (Lucas County + Sylvania, Maumee, Perrysburg, Bowling Green, Oregon, Holland, Waterville)",
-    "lastUpdated": "2026-06-20",
+    "lastUpdated": "2026-07-27",
     "providerCount": 25,
     "note": "Data compiled from adversarially-verified deep research. Verify dates and contacts before registering — programs change annually."
   },
@@ -56,13 +56,13 @@
       "topics": ["Robotics", "Coding", "Maker/3D Printing", "Forensics", "Science"],
       "description": "Week-long STEM camps at Owens' Perrysburg campus: forensics, LEGO Spike robotics, Micro:bit, Tinkercad/3D printing, pinball physics.",
       "location": { "venue": "Dana Advanced Manufacturing Training Center, Owens Perrysburg campus", "city": "Perrysburg", "state": "OH", "zip": "43551" },
-      "contact": { "phone": "", "email": "", "website": "https://koolkatscience.net/", "namedContact": "" },
+      "contact": { "phone": "", "email": "", "website": "https://koolkatscience.org/", "namedContact": "" },
       "gradesAges": "Ages 6–12",
       "cost": "Varies",
       "free": false,
       "season": "Summer (confirm 2026 dates)",
       "verified": true,
-      "sourceUrl": "https://koolkatscience.net/toledo-oh/summer-camps-owns-2025/",
+      "sourceUrl": "https://koolkatscience.org/",
       "events": []
     },
     {
@@ -91,7 +91,7 @@
       "topics": ["Science", "Environmental", "Marine/Aquatic"],
       "description": "Summer Safari Camp and a Spring Break Camp for a Day with STEM tracks: animal behavior, jr. zookeeper, ornithology, aquatic science.",
       "location": { "venue": "Toledo Zoo & Aquarium", "city": "Toledo", "state": "OH", "zip": "43609" },
-      "contact": { "phone": "", "email": "", "website": "https://www.toledozoo.org/education/camps", "namedContact": "Route outreach via website" },
+      "contact": { "phone": "419-385-5721", "email": "education@toledozoo.org", "website": "https://www.toledozoo.org/education/camps", "namedContact": "Education Dept." },
       "gradesAges": "Ages 4–15",
       "cost": "Varies",
       "free": false,
@@ -100,7 +100,7 @@
       "sourceUrl": "https://www.toledozoo.org/education/camps",
       "events": [
         { "name": "Spring Break Camp for a Day", "focus": "Animal behavior, jr. zookeeper, ornithology, aquatic science, creative STEM", "topics": ["Science", "Environmental"], "start": "2026-03-31", "end": "2026-04-08", "grades": "Ages 5–15", "format": "Day camp", "cost": "", "registrationUrl": "https://www.toledozoo.org/education/camps" },
-        { "name": "Summer Safari Camp (e.g. Zoo Animal Rescue)", "focus": "Live-animal science", "topics": ["Science", "Environmental"], "start": "2026-08-03", "end": "2026-08-07", "grades": "Ages 4–15", "format": "Day camp (9am–3pm)", "cost": "", "registrationUrl": "https://connect.toledozoo.org/education/res/summer-camp" }
+        { "name": "Summer Safari Camp (e.g. Zoo Animal Rescue)", "focus": "Live-animal science", "topics": ["Science", "Environmental"], "start": "2026-08-03", "end": "2026-08-07", "grades": "Ages 4–15", "format": "Day camp (9am–3pm)", "cost": "", "registrationUrl": "https://www.toledozoo.org/education/camps" }
       ]
     },
     {
@@ -168,7 +168,7 @@
       "verified": true,
       "sourceUrl": "https://www.toledolibrary.org/making/",
       "events": [
-        { "name": "Rookie Robotics 2026 Series", "focus": "Robotics, electronics, coding (4-week)", "topics": ["Robotics", "Coding"], "start": "2026-03-31", "end": "2026-03-31", "grades": "Grades 3–6", "format": "Library class", "cost": "FREE", "registrationUrl": "https://toledo.libnet.info/event/14993928" }
+        { "name": "Rookie Robotics 2026 Series", "focus": "Robotics, electronics, coding (4-week)", "topics": ["Robotics", "Coding"], "start": "2026-03-31", "end": "2026-03-31", "grades": "Grades 3–6", "format": "Library class", "cost": "FREE", "registrationUrl": "https://events.toledolibrary.org/" }
       ]
     },
     {
@@ -224,14 +224,14 @@
       "name": "Code Ninjas Sylvania",
       "category": "For-profit Franchise",
       "topics": ["Coding", "Robotics"],
-      "description": "Coding, robotics, and problem-solving camps for ages 7–14.",
+      "description": "Coding, robotics, and problem-solving camps for ages 7–14. NOTE (2026-07-27): appears CLOSED — official location page returns 404 and the suite is reported vacant. Needs human confirmation before relying on this entry.",
       "location": { "venue": "4024 N Holland Sylvania Rd, Suite 10 & 11", "city": "Toledo", "state": "OH", "zip": "43623" },
       "contact": { "phone": "", "email": "", "website": "https://www.codeninjas.com/oh-sylvania/", "namedContact": "Contact via franchise page" },
       "gradesAges": "Ages 7–14",
       "cost": "Varies",
       "free": false,
-      "season": "Summer 2026",
-      "verified": true,
+      "season": "Unconfirmed — location appears closed",
+      "verified": false,
       "sourceUrl": "https://www.codeninjas.com/oh-sylvania/",
       "events": []
     },
@@ -257,7 +257,7 @@
       "category": "For-profit Franchise",
       "topics": ["Robotics", "Coding", "Engineering"],
       "description": "LEGO-based STEM/STEAM camps, robotics & coding for ages 5–13.",
-      "location": { "venue": "4204 W Sylvania Ave Suite 100", "city": "Toledo", "state": "OH", "zip": "43623" },
+      "location": { "venue": "4204 W Sylvania Ave Suite 101", "city": "Toledo", "state": "OH", "zip": "43623" },
       "contact": { "phone": "734-497-4422", "email": "", "website": "https://bricks4kidz.us/ohio-toledo/our-programs/camps/", "namedContact": "Shanyn Stewart" },
       "gradesAges": "Ages 5–13",
       "cost": "Varies",
@@ -274,7 +274,7 @@
       "topics": ["Coding", "Robotics", "Math"],
       "description": "STEM Camps for elementary through early high school across three metro centers.",
       "location": { "venue": "1566 Spring Meadows Dr (main)", "city": "Holland", "state": "OH", "zip": "43528" },
-      "contact": { "phone": "419-491-4001", "email": "", "website": "https://www.sylvanlearning.com/locations/us/oh/toledo-tutoring/", "namedContact": "" },
+      "contact": { "phone": "419-549-8906", "email": "", "website": "https://www.sylvanlearning.com/locations/us/oh/toledo-tutoring/", "namedContact": "" },
       "gradesAges": "Elementary–early HS",
       "cost": "~$200+/camp",
       "free": false,
@@ -376,16 +376,17 @@
       "topics": ["Environmental", "Science", "Engineering"],
       "description": "Capt. Scupper's Kid's Club — recurring environmental-science/engineering Saturdays for ages 13 and under.",
       "location": { "venue": "1701 Front Street", "city": "Toledo", "state": "OH", "zip": "43605" },
-      "contact": { "phone": "", "email": "", "website": "https://nmgl.org/event/capt-scuppers-kids-club-community-scientists-3/", "namedContact": "Via Eventbrite / nmgl.org" },
+      "contact": { "phone": "419-214-5000", "email": "", "website": "https://nmgl.org/events/", "namedContact": "Via nmgl.org events calendar" },
       "gradesAges": "Ages 13 & under",
       "cost": "Varies",
       "free": false,
-      "season": "Summer 2026 (recurring Saturdays)",
+      "season": "2026 (recurring Saturdays)",
       "verified": true,
-      "sourceUrl": "https://nmgl.org/event/capt-scuppers-kids-club-community-scientists-3/",
+      "sourceUrl": "https://nmgl.org/events/",
       "events": [
-        { "name": "Capt. Scupper's Kid's Club — Recycled Regatta", "focus": "Engineering / recycled-boat building", "topics": ["Engineering", "Environmental"], "start": "2026-06-06", "end": "2026-06-27", "grades": "Ages ≤13", "format": "Recurring Saturdays 10:30am (Jun 6, 13, 20, 27)", "cost": "", "registrationUrl": "https://www.eventbrite.com/e/capt-scuppers-kids-club-recycled-regatta-tickets-1988407442186" },
-        { "name": "Capt. Scupper's Kid's Club — Community Scientists", "focus": "Maumee River water-quality testing", "topics": ["Environmental", "Science"], "start": "2026-07-11", "end": "2026-07-25", "grades": "Ages ≤13", "format": "Recurring Saturdays 10:30am (Jul 11, 18, 25)", "cost": "", "registrationUrl": "https://www.eventbrite.com/e/capt-scuppers-kids-club-community-scientists-tickets-1991572756727" }
+        { "name": "Capt. Scupper's Kids Club — Lego on the Lakes", "focus": "LEGO engineering / Great Lakes STEM", "topics": ["Engineering", "Maker/3D Printing"], "start": "2026-08-01", "end": "2026-08-15", "grades": "Ages ≤13", "format": "Recurring Saturdays 10:30am–1:30pm (Aug 1, 8, 15)", "cost": "", "registrationUrl": "https://nmgl.org/events/" },
+        { "name": "Capt. Scupper's Kid's Club — Recycled Regatta", "focus": "Engineering / recycled-boat building", "topics": ["Engineering", "Environmental"], "start": "2026-06-06", "end": "2026-06-27", "grades": "Ages ≤13", "format": "Recurring Saturdays 10:30am (Jun 6, 13, 20, 27)", "cost": "", "registrationUrl": "https://nmgl.org/events/" },
+        { "name": "Capt. Scupper's Kid's Club — Community Scientists", "focus": "Maumee River water-quality testing", "topics": ["Environmental", "Science"], "start": "2026-07-11", "end": "2026-07-25", "grades": "Ages ≤13", "format": "Recurring Saturdays 10:30am (Jul 11, 18, 25)", "cost": "", "registrationUrl": "https://nmgl.org/events/" }
       ]
     },
     {
@@ -394,8 +395,8 @@
       "category": "Grassroots / Independent",
       "topics": ["Robotics", "Coding", "Science"],
       "description": "Grassroots 501(c)(3): competitive FIRST robotics (grades 1–12), programming clinics, STEM summer camps.",
-      "location": { "venue": "3315 Centennial Road area", "city": "Sylvania", "state": "OH", "zip": "43560" },
-      "contact": { "phone": "", "email": "", "website": "https://sylvaniastem.org/about", "namedContact": "Tom Burnworth (founder); confirm contact directly" },
+      "location": { "venue": "3315 Centennial Rd, Suite H", "city": "Sylvania", "state": "OH", "zip": "43560" },
+      "contact": { "phone": "", "email": "", "website": "https://sylvaniastem.org/about", "namedContact": "Tom Burnworth (Executive Director / co-founder)" },
       "gradesAges": "Grades 1–12",
       "cost": "Varies",
       "free": false,
@@ -405,29 +406,13 @@
       "events": []
     },
     {
-      "id": "ttl-makerspace",
-      "name": "TTLMakerspace — Junior Worldbuilders",
-      "category": "Grassroots / Independent",
-      "topics": ["Maker/3D Printing"],
-      "description": "Youth maker program (ages 8–14). LEAD — not fully verified; confirm directly.",
-      "location": { "venue": "Toledo area", "city": "Toledo", "state": "OH", "zip": "" },
-      "contact": { "phone": "", "email": "", "website": "https://ttlmakerspace.com", "namedContact": "Site bot-blocked — verify" },
-      "gradesAges": "Ages 8–14",
-      "cost": "Varies",
-      "free": false,
-      "season": "Unconfirmed",
-      "verified": false,
-      "sourceUrl": "https://ttlmakerspace.com",
-      "events": []
-    },
-    {
       "id": "empoweredai-yea",
       "name": "EmpoweredAI — Young Empowered Authors",
       "category": "Grassroots / Independent",
       "topics": ["AI", "Coding"],
       "description": "FREE program where kids use AI tools to write and publish their own books on Amazon. Signature 'Publishers Party' showcase.",
       "location": { "venue": "Toledo (Art Tatum Zone / City of Toledo partners)", "city": "Toledo", "state": "OH", "zip": "" },
-      "contact": { "phone": "616-443-0392", "email": "info@empoweredai.org", "website": "https://www.empoweredai.org/young-empowered-authors", "namedContact": "Confirm phone (a 2024 listing showed 419.315.6789)" },
+      "contact": { "phone": "616-443-0392", "email": "info@empoweredai.org", "website": "https://www.empoweredai.org/young-empowered-authors", "namedContact": "" },
       "gradesAges": "K–12 (cohorts ages 7–12)",
       "cost": "FREE (full scholarships)",
       "free": true,
@@ -435,6 +420,24 @@
       "verified": true,
       "sourceUrl": "https://www.empoweredai.org/young-empowered-authors",
       "events": []
+    },
+    {
+      "id": "metroparks-toledo",
+      "name": "Metroparks Toledo — Homeschool Series",
+      "category": "Community / Nonprofit",
+      "topics": ["Environmental", "Science"],
+      "description": "School-year homeschool science/nature enrichment: monthly age-grouped sessions with group activities, nature exploration, and inquiry-based STEM learning, ending in an optional project fair.",
+      "location": { "venue": "Wildwood Preserve, Metroparks Hall", "city": "Toledo", "state": "OH", "zip": "43615" },
+      "contact": { "phone": "419-407-9700", "email": "", "website": "https://metroparkstoledo.com/HOMESCHOOL", "namedContact": "" },
+      "gradesAges": "Ages 5–14 (bands: 5–6, 7–8, 9–10, 11–12, 13–14)",
+      "cost": "$90 (full series)",
+      "free": false,
+      "season": "School year 2026–2027",
+      "verified": true,
+      "sourceUrl": "https://metroparkstoledo.com/HOMESCHOOL",
+      "events": [
+        { "name": "Homeschool Series 2026–2027", "focus": "Nature/science inquiry (decomposition, animal behavior, life cycles, ecosystems)", "topics": ["Environmental", "Science"], "start": "2026-09-04", "end": "2027-05-07", "grades": "Ages 5–14", "format": "Monthly, Fridays 10:30am–Noon or 1:30–3pm", "cost": "$90 (full series)", "registrationUrl": "https://metroparkstoledo.com/HOMESCHOOL" }
+      ]
     }
   ]
 }
