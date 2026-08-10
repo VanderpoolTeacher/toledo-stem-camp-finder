@@ -2,8 +2,8 @@
   "meta": {
     "title": "Toledo Metro K-12 STEM Camp Finder",
     "region": "Toledo, Ohio metro (Lucas County + Sylvania, Maumee, Perrysburg, Bowling Green, Oregon, Holland, Waterville)",
-    "lastUpdated": "2026-08-03",
-    "providerCount": 25,
+    "lastUpdated": "2026-08-10",
+    "providerCount": 29,
     "note": "Data compiled from adversarially-verified deep research. Verify dates and contacts before registering — programs change annually."
   },
   "topics": ["Robotics", "Coding", "AI", "Cybersecurity", "Engineering", "Science", "Manufacturing", "Forensics", "Marine/Aquatic", "Math", "Maker/3D Printing", "STEAM/Art", "Aviation", "Environmental"],
@@ -52,9 +52,9 @@
       "name": "University of Toledo College of Engineering — K-12 Outreach",
       "category": "University / College",
       "topics": ["Robotics", "Coding", "Engineering"],
-      "description": "Year-round K-12 engineering outreach. The Robotic Rubik's Cube Challenge sets up school Mechatronics Clubs (with Dana, Owens Community College and Toledo Public Schools, NSF-funded) with twice-weekly after-school training in electronics, coding and robotics; clubs start each September, including September 2026. Also runs the Introduce a Girl to Engineering series and the PEER high-school research program.",
+      "description": "Year-round K-12 engineering outreach. The Robotic Rubik's Cube Challenge sets up school Mechatronics Clubs (with Dana, Owens Community College and Toledo Public Schools, NSF-funded) with twice-weekly after-school online training in electronics, coding and robotics, reduced to weekly after the first semester; UToledo supplies Siemens PLC software, electronic kits, motors, controllers and curriculum. Cohorts start Sept. 2026 and Sept. 2027. Also runs the Introduce a Girl to Engineering series (open to all middle school students starting 2026) and the PEER high-school research program.",
       "location": { "venue": "UToledo College of Engineering", "city": "Toledo", "state": "OH", "zip": "43606" },
-      "contact": { "phone": "", "email": "EnUGStudies@utoledo.edu", "website": "https://www.utoledo.edu/engineering/community-outreach.html", "namedContact": "Robotic Rubik's Cube Challenge details at hybridplc.org" },
+      "contact": { "phone": "419-530-8040", "email": "EnUGStudies@utoledo.edu", "website": "https://www.utoledo.edu/engineering/community-outreach.html", "namedContact": "Rubik’s Cube Challenge: engineeringnews@utoledo.edu or the request form at utoledo.edu/engineering/webforms/roboticsrubikscubechallenge.html" },
       "gradesAges": "Grades 6–12",
       "cost": "Varies; scholarships to UToledo and Owens available for participants",
       "free": false,
@@ -71,7 +71,7 @@
       "name": "Owens Community College / Kool Kat Science",
       "category": "University / College",
       "topics": ["Robotics", "Coding", "Maker/3D Printing", "Forensics", "Science"],
-      "description": "Week-long STEM camps run by Kool Kat Science through Owens' Workforce & Community Services: Inspector Elle mystery/forensics and LEGO robotics (ages 6–8), Micro:bit electronics & coding and Tinkercad/3D printing (ages 8–12). Kool Kat has also announced Future Builders Lab, a 15-week grades 3–6 afterschool program with New Leaf Group launching fall 2026 (confirm directly).",
+      "description": "Week-long STEM camps run by Kool Kat Science through Owens' Workforce & Community Services: Inspector Elle mystery/forensics and LEGO robotics (ages 6–8), Micro:bit electronics & coding and Tinkercad/3D printing (ages 8–12). Kool Kat has also announced Future Builders Lab, a 15-week grades 3–6 afterschool program with New Leaf Group launching fall 2026 (confirm directly). Kool Kat also runs youth sessions at Toledo Tech Loft (downtown Toledo) and Toledo Library branches.",
       "location": { "venue": "Owens Workforce & Community Services, 30335 Oregon Rd", "city": "Perrysburg", "state": "OH", "zip": "43551" },
       "contact": { "phone": "", "email": "", "website": "https://koolkatscience.org/", "namedContact": "Register through Owens Workforce & Community Services" },
       "gradesAges": "Ages 6–12",
@@ -87,13 +87,13 @@
       "name": "Imagination Station",
       "category": "Science Center / Zoo / Museum",
       "topics": ["Science"],
-      "description": "Downtown science center running week-long summer STEM camps for ages 6–13, plus a sensory-friendly week.",
+      "description": "Downtown science center running week-long summer STEM camps for ages 6–13, plus a sensory-friendly week and school-year homeschool workshops for grades K–8.",
       "location": { "venue": "1 Discovery Way", "city": "Toledo", "state": "OH", "zip": "43604" },
       "contact": { "phone": "419.244.2674", "email": "", "website": "https://www.imaginationstationtoledo.org/visit/events", "namedContact": "" },
-      "gradesAges": "Ages 6–13",
-      "cost": "$250/week members, $275/week non-members",
+      "gradesAges": "Ages 6–13 (camps); grades K–8 (homeschool workshops)",
+      "cost": "$250/week members, $275/week non-members (summer camps); homeschool workshop pricing not published",
       "free": false,
-      "season": "Summer 2026 (weekly, June 8 – Aug 14)",
+      "season": "Summer 2026 (complete Aug 14); homeschool workshops resume Sept 2026",
       "verified": true,
       "sourceUrl": "https://www.imaginationstationtoledo.org/visit/events",
       "events": [
@@ -101,7 +101,11 @@
         { "name": "Destination: 2100", "focus": "Future-tech science", "topics": ["Science"], "start": "2026-06-22", "end": "2026-06-26", "grades": "Ages 9–13", "format": "Day camp", "cost": "$250 members / $275 non-members", "registrationUrl": "https://www.imaginationstationtoledo.org/visit/events" },
         { "name": "The Greatest Camp on Earth", "focus": "Hands-on STEAM", "topics": ["Science"], "start": "2026-08-03", "end": "2026-08-07", "grades": "Ages 6–8", "format": "Day camp (from 9am)", "cost": "$250 members / $275 non-members", "registrationUrl": "https://www.imaginationstationtoledo.org/visit/events" },
         { "name": "I.S. Fashion Week", "focus": "Science of materials, design and making", "topics": ["Science"], "start": "2026-08-03", "end": "2026-08-07", "grades": "Ages 9–13", "format": "Day camp (from 9am)", "cost": "$250 members / $275 non-members", "registrationUrl": "https://www.imaginationstationtoledo.org/visit/events" },
-        { "name": "Sensory Friendly Camp: Best of the Summer", "focus": "Sensory-friendly STEAM — SOLD OUT", "topics": ["Science"], "start": "2026-08-10", "end": "2026-08-14", "grades": "Ages 7–10", "format": "Day camp — SOLD OUT", "cost": "$250 members / $275 non-members", "registrationUrl": "https://www.imaginationstationtoledo.org/visit/events" }
+        { "name": "Sensory Friendly Camp: Best of the Summer", "focus": "Sensory-friendly STEAM — SOLD OUT", "topics": ["Science"], "start": "2026-08-10", "end": "2026-08-14", "grades": "Ages 7–10", "format": "Day camp — SOLD OUT", "cost": "$250 members / $275 non-members", "registrationUrl": "https://www.imaginationstationtoledo.org/visit/events" },
+        { "name": "Homeschool Workshop: Incredible Inventions and Fabulous Failures", "focus": "Invention, iteration and learning from failure", "topics": ["Science", "Engineering"], "start": "2026-09-15", "end": "2026-09-16", "grades": "Grades K–3", "format": "Homeschool workshop (Tue/Wed)", "cost": "Not published — confirm with Imagination Station", "registrationUrl": "https://www.imaginationstationtoledo.org/visit/events" },
+        { "name": "Homeschool Workshop: Inventive Design", "focus": "Design thinking and engineering design process", "topics": ["Engineering", "Science"], "start": "2026-09-15", "end": "2026-09-16", "grades": "Grades 4–8", "format": "Homeschool workshop (Tue/Wed)", "cost": "Not published — confirm with Imagination Station", "registrationUrl": "https://www.imaginationstationtoledo.org/visit/events" },
+        { "name": "Homeschool Workshop: Colorful Chemical Concoctions", "focus": "Hands-on chemistry", "topics": ["Science"], "start": "2026-10-13", "end": "2026-10-14", "grades": "Grades K–3", "format": "Homeschool workshop (Tue/Wed)", "cost": "Not published — confirm with Imagination Station", "registrationUrl": "https://www.imaginationstationtoledo.org/visit/events" },
+        { "name": "Homeschool Workshop: The Elements", "focus": "Periodic table and elemental chemistry", "topics": ["Science"], "start": "2026-10-13", "end": "2026-10-14", "grades": "Grades 4–8", "format": "Homeschool workshop (Tue/Wed)", "cost": "Not published — confirm with Imagination Station", "registrationUrl": "https://www.imaginationstationtoledo.org/visit/events" }
       ]
     },
     {
@@ -240,6 +244,40 @@
       "events": []
     },
     {
+      "id": "besn-x",
+      "name": "BESN X Community STEM Center",
+      "category": "Community / Nonprofit",
+      "topics": ["Coding", "Robotics", "AI", "STEAM/Art"],
+      "description": "Digital-equity STEM nonprofit (Bridging Equity STEM and Networking) using gamification and game development to route youth toward STEM tracks: coding, robotics, AI, esports, green tech and visual arts. Phone and email below were confirmed on the site’s contact page on 2026-08-10, but the street address, ages served, cost and 2026–27 schedule are NOT published online — verify directly before referring families.",
+      "location": { "venue": "Street address not published — confirm directly", "city": "Toledo", "state": "OH", "zip": "" },
+      "contact": { "phone": "404-603-0572", "email": "info@besnxc.org", "website": "https://www.besnxc.org/", "namedContact": "" },
+      "gradesAges": "K–12 (not confirmed)",
+      "cost": "Not published",
+      "free": false,
+      "season": "After-school, weekend & summer (schedule not published)",
+      "verified": false,
+      "sourceUrl": "https://www.besnxc.org/contact",
+      "events": []
+    },
+    {
+      "id": "metroparks-toledo",
+      "name": "Metroparks Toledo — Homeschool Series",
+      "category": "Community / Nonprofit",
+      "topics": ["Environmental", "Science"],
+      "description": "School-year homeschool science/nature enrichment: monthly age-grouped sessions with group activities, nature exploration and inquiry-based STEM learning (decomposition, animal behavior, life cycles, ecosystems), ending in an optional project fair at Glass City Metropark Enrichment Center.",
+      "location": { "venue": "Wildwood Preserve Metropark, Metroparks Hall", "city": "Toledo", "state": "OH", "zip": "43615" },
+      "contact": { "phone": "419-407-9700", "email": "", "website": "https://metroparkstoledo.com/HOMESCHOOL", "namedContact": "" },
+      "gradesAges": "Ages 5–14 (bands: 5–6, 7–8, 9–10, 11–12, 13–14)",
+      "cost": "$90 (full series)",
+      "free": false,
+      "season": "School year 2026–2027",
+      "verified": true,
+      "sourceUrl": "https://metroparkstoledo.com/HOMESCHOOL",
+      "events": [
+        { "name": "Homeschool Series 2026–2027", "focus": "Nature/science inquiry (decomposition, animal behavior, life cycles, ecosystems)", "topics": ["Environmental", "Science"], "start": "2026-09-04", "end": "2027-05-07", "grades": "Ages 5–14", "format": "Monthly Fridays, 10:30am–Noon or 1:30–3pm; reservations required", "cost": "$90 (full series)", "registrationUrl": "https://metroparkstoledo.com/HOMESCHOOL" }
+      ]
+    },
+    {
       "id": "code-ninjas",
       "name": "Code Ninjas Sylvania",
       "category": "For-profit Franchise",
@@ -326,6 +364,29 @@
       ]
     },
     {
+      "id": "maumee-valley-ivy",
+      "name": "Maumee Valley Country Day School (Ivy Camps USA Summer Program)",
+      "category": "School / Career Center",
+      "topics": ["Science", "Engineering", "Coding", "Robotics"],
+      "description": "PK–8 summer day camps in partnership with Ivy Camps USA, including several STEM tracks (earth & space science, engineering, animal science, racecar building, game design). Weekly sessions. Summer 2026 season is complete; 2027 dates not yet published.",
+      "location": { "venue": "Maumee Valley Country Day School, 1715 S Reynolds Rd", "city": "Toledo", "state": "OH", "zip": "43614" },
+      "contact": { "phone": "419-381-1313", "email": "", "website": "https://www.mvcds.org/beyond-the-classroom/summer-programs/", "namedContact": "" },
+      "gradesAges": "PK/JK–8th grade",
+      "cost": "$299/week (K–8); $330/week (PK/JK); 10% sibling discount. Before-care $40/wk, after-care $80/wk",
+      "free": false,
+      "season": "Summer 2026 (complete — ran June 15–July 31)",
+      "verified": true,
+      "sourceUrl": "https://www.mvcds.org/beyond-the-classroom/summer-programs/",
+      "events": [
+        { "name": "Extreme Science: Earth & Space", "focus": "Earth & space science", "topics": ["Science"], "start": "2026-06-15", "end": "2026-07-31", "grades": "K–8", "format": "Weekly day-camp session (specific week varies)", "cost": "$299/week", "registrationUrl": "https://www.mvcds.org/beyond-the-classroom/summer-programs/" },
+        { "name": "Engineer a Better World with Lego", "focus": "LEGO engineering", "topics": ["Engineering", "Robotics"], "start": "2026-06-15", "end": "2026-07-31", "grades": "K–8", "format": "Weekly day-camp session (specific week varies)", "cost": "$299/week", "registrationUrl": "https://www.mvcds.org/beyond-the-classroom/summer-programs/" },
+        { "name": "Engineering: Game Design & Escape Rooms", "focus": "Game design / coding logic", "topics": ["Coding", "Engineering"], "start": "2026-06-15", "end": "2026-07-31", "grades": "K–8", "format": "Weekly day-camp session (specific week varies)", "cost": "$299/week", "registrationUrl": "https://www.mvcds.org/beyond-the-classroom/summer-programs/" },
+        { "name": "Fast & Furious: Racecar Building", "focus": "Applied physics / engineering build", "topics": ["Engineering", "Science"], "start": "2026-06-15", "end": "2026-07-31", "grades": "K–8", "format": "Weekly day-camp session (specific week varies)", "cost": "$299/week", "registrationUrl": "https://www.mvcds.org/beyond-the-classroom/summer-programs/" },
+        { "name": "Backyard Biologists: From Bugs to Dinosaurs", "focus": "Life science / paleontology", "topics": ["Science", "Environmental"], "start": "2026-06-15", "end": "2026-07-31", "grades": "K–8", "format": "Weekly day-camp session (specific week varies)", "cost": "$299/week", "registrationUrl": "https://www.mvcds.org/beyond-the-classroom/summer-programs/" },
+        { "name": "Fur, Feathers, & First Aid: Exploring Animal Science", "focus": "Animal science / veterinary basics", "topics": ["Science"], "start": "2026-06-15", "end": "2026-07-31", "grades": "K–8", "format": "Weekly day-camp session (specific week varies)", "cost": "$299/week", "registrationUrl": "https://www.mvcds.org/beyond-the-classroom/summer-programs/" }
+      ]
+    },
+    {
       "id": "camp-invention",
       "name": "Camp Invention (National Inventors Hall of Fame)",
       "category": "School / Career Center",
@@ -339,6 +400,22 @@
       "season": "Summer 2026",
       "verified": true,
       "sourceUrl": "https://www.invent.org/programs/camp-invention",
+      "events": []
+    },
+    {
+      "id": "horizon-science-academy",
+      "name": "Horizon Science Academy Toledo",
+      "category": "School / Career Center",
+      "topics": ["Robotics", "Science"],
+      "description": "Tuition-free K-12 charter school with a STEM-focused, college-preparatory curriculum; STEM Certified by Cognia. Secondary sources describe FIRST Tech Challenge robotics for grades 7–12 and LEGO robotics teams for elementary/middle grades, but the school’s robotics page returns HTTP 403 and the programs are NOT mentioned anywhere on the accessible site — treat the robotics offering as an unconfirmed lead and call the school to confirm.",
+      "location": { "venue": "2600 W. Sylvania Ave.", "city": "Toledo", "state": "OH", "zip": "43613" },
+      "contact": { "phone": "419-474-3350", "email": "", "website": "https://www.horizontoledo.org/", "namedContact": "" },
+      "gradesAges": "K–12",
+      "cost": "Free (public charter school)",
+      "free": true,
+      "season": "School year",
+      "verified": false,
+      "sourceUrl": "https://www.horizontoledo.org/",
       "events": []
     },
     {
@@ -406,7 +483,7 @@
       "events": [
         { "name": "Capt. Scupper's Kid's Club — Recycled Regatta", "focus": "Engineering / recycled-boat building", "topics": ["Engineering", "Environmental"], "start": "2026-06-06", "end": "2026-06-27", "grades": "Ages ≤13", "format": "Recurring Saturdays 10:30am–1:30pm (Jun 6, 13, 20, 27)", "cost": "Free with museum admission", "registrationUrl": "https://www.eventbrite.com/e/capt-scuppers-kids-club-recycled-regatta-tickets-1988407442186" },
         { "name": "Capt. Scupper's Kid's Club — Community Scientists", "focus": "Maumee River water-quality testing", "topics": ["Environmental", "Science"], "start": "2026-07-11", "end": "2026-07-25", "grades": "Ages ≤13", "format": "Recurring Saturdays 10:30am–1:30pm (Jul 11, 18, 25)", "cost": "Free with museum admission", "registrationUrl": "https://www.eventbrite.com/e/capt-scuppers-kids-club-community-scientists-tickets-1991572756727" },
-        { "name": "Capt. Scupper's Kid's Club — Lego on the Lakes", "focus": "Build Great Lakes ships from Lego in the Community Education Center; drop-in, no registration", "topics": ["Engineering", "Science"], "start": "2026-08-01", "end": "2026-08-29", "grades": "Ages ≤13", "format": "Recurring Saturdays 11am–2pm — confirm 2026 dates/time with the museum (419-214-5000)", "cost": "Free with museum admission", "registrationUrl": "https://www.eventbrite.com/e/capt-scuppers-kids-club-lego-on-the-lakes-tickets-1993919129792" }
+        { "name": "Capt. Scupper's Kid's Club — Lego on the Lakes", "focus": "Build Great Lakes ships from Lego in the Great Lakes Community Education Center; co-presented by The Collaborative and Lathrop Co. Drop-in, no registration.", "topics": ["Engineering", "Science"], "start": "2026-08-15", "end": "2026-08-22", "grades": "Ages ≤13", "format": "Recurring Saturdays 10:30am–1:30pm (Aug 15 & 22 confirmed on the museum calendar)", "cost": "Free with museum admission", "registrationUrl": "https://www.eventbrite.com/e/capt-scuppers-kids-club-lego-on-the-lakes-tickets-1993919129792" }
       ]
     },
     {
@@ -414,15 +491,15 @@
       "name": "Sylvania STEM Center",
       "category": "Grassroots / Independent",
       "topics": ["Robotics", "Coding", "Science"],
-      "description": "Grassroots 501(c)(3) in a 2,600 sq ft facility: competitive FIRST robotics (grades 1–12, incl. FIRST LEGO League), programming clinics and STEM summer camps. Teams of ~8 meet twice weekly. NOTE: the website did not respond to automated checks and the founder's name could not be confirmed — verify directly before contacting.",
-      "location": { "venue": "3315 Centennial Road", "city": "Sylvania", "state": "OH", "zip": "43560" },
-      "contact": { "phone": "", "email": "", "website": "https://www.sylvaniastem.org/about", "namedContact": "Founder name NOT confirmed — sources disagree; verify directly" },
+      "description": "Grassroots 501(c)(3) running competitive FIRST robotics (grades 1–12, incl. FIRST LEGO League), programming clinics and STEM summer camps. WARNING: as of 2026-08-10 sylvaniastem.org no longer hosts a website — both the apex and www redirect to a GoDaddy parked-domain lander. Operating status for 2026–27 is UNKNOWN. Local reporting indicates the center acquired a larger building at 7335 W. Sylvania Ave. in Aug 2022, so the Centennial Road address below may also be out of date. Verify by phone or Facebook before referring families.",
+      "location": { "venue": "3315 Centennial Road (may be superseded by 7335 W. Sylvania Ave. — unconfirmed)", "city": "Sylvania", "state": "OH", "zip": "43560" },
+      "contact": { "phone": "", "email": "", "website": "https://www.facebook.com/SylvaniaSTEMCenter/", "namedContact": "Website offline; founder name not confirmed — verify directly" },
       "gradesAges": "Grades 1–12",
       "cost": "Varies",
       "free": false,
-      "season": "Summer + year-round",
+      "season": "UNKNOWN — website offline as of Aug 2026",
       "verified": false,
-      "sourceUrl": "https://www.sylvaniastem.org/about",
+      "sourceUrl": "https://www.facebook.com/SylvaniaSTEMCenter/",
       "events": []
     },
     {
